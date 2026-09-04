@@ -1,0 +1,39 @@
+{
+  "pages": {
+    "en": {
+      "Aktive Ausleihen": "Active Checkouts",
+      "Alle Werkzeuge sind zurückgegeben — keine aktiven Ausleihen.": "All tools have been returned — no active checkouts.",
+      "Ausgeliehen": "Checked Out",
+      "Bitte Ausleihe über \"+ Ausleihe\" anlegen — direkt ausgeben geht hier nicht.": "Please create a checkout via \"+ Checkout\" — direct issue is not available here.",
+      "Defekt": "Defective",
+      "Erledigt": "Done",
+      "Heute ausgegeben an {0} — {1} Werkzeuge verfügbar.": "Issued today to {0} — {1} tools available.",
+      "In Wartung": "In Maintenance",
+      "Keine aktiven Ausleihen — {0} Werkzeuge verfügbar.": "No active checkouts — {0} tools available.",
+      "Keine offenen Wartungen oder Schäden — alles in Ordnung.": "No open maintenance or damage — everything is in order.",
+      "Neue Ausleihe": "New Checkout",
+      "Offene Wartungen & Schäden": "Open Maintenance & Damage",
+      "Ohne Bezeichnung": "No name",
+      "Rückgabe eintragen": "Return entry",
+      "Schaden": "Damage",
+      "Schaden melden": "Report Damage",
+      "Unbekannt": "Unknown",
+      "Unbekanntes Werkzeug": "Unknown Tool",
+      "Verfügbar": "Available",
+      "Wartung": "Maintenance",
+      "Zur Wartung": "To Maintenance",
+      "Zurück": "Back",
+      "geplant": "scheduled",
+      "{0} Werkzeuge ausgeliehen — {1} verfügbar.": "{0} tools checked out — {1} available.",
+      "{0} Werkzeuge heute ausgegeben — {1} noch verfügbar.": "{0} tools issued today — {1} still available.",
+      "{0} — Status geändert": "{0} — status changed",
+      "{0} — Wartung erledigt": "{0} — maintenance done",
+      "{0} — zurückgegeben": "{0} — returned",
+      "{0}× ausgeliehen": "{0}× checked out",
+      "Überfällig": "Overdue",
+      "überfällig — Rückgabe war geplant am {0}.": "overdue — return was scheduled for {0}.",
+      "— {0} Ausleihen überfällig.": "— {0} checkouts overdue."
+    }
+  },
+  "v": 1
+}
