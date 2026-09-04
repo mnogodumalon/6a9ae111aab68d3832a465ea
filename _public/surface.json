@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "werkzeug-anfrage",
+      "component": "WerkzeugAnfrage",
+      "title": "Werkzeug anfragen",
+      "endpoints": [
+        {
+          "entity": "werkzeuge",
+          "op": "list",
+          "fields": [
+            "bezeichnung",
+            "inventarnummer",
+            "status",
+            "kategorien"
+          ],
+          "scope": "r.v_status == 'verfuegbar'",
+          "scope_description": "Zeigt nur Werkzeuge mit Status Verfügbar",
+          "max_records": 200
+        },
+        {
+          "entity": "ausleihen",
+          "op": "create",
+          "fields": [
+            "werkzeug",
+            "ausgabe",
+            "rueckgabe_geplant"
+          ]
+        }
+      ]
+    }
+  ],
+  "partial": true
+}
