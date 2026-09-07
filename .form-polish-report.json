@@ -1,0 +1,34 @@
+{
+  "entities": {
+    "Mitarbeiter": {
+      "placeholders_set": 6,
+      "defaults_keys": ["abteilung", "aktiv"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten — Vorname, Nachname, Personalnummer, Abteilung, Mobil. Keine Zahlenfelder außer Aktivitäts-Flag, keine Datumsfelder, keine Multiplika­tionen oder Aggregationen sinnvoll."
+    },
+    "Werkzeuge": {
+      "placeholders_set": 8,
+      "defaults_keys": ["status"],
+      "computed_keys": [],
+      "reason": "Stammdaten für Werkzeugverwaltung — Bezeichnung, Inventarnummer, Status, Bestand, Anschaffungspreis, Kategorien, Handbuch, Ersatz-für. Bestand und Preis sind reine Verzeichnisfelder, keine Multiplikationen oder Abhängigkeiten."
+    },
+    "Ausleihen": {
+      "placeholders_set": 6,
+      "defaults_keys": ["ausgabe", "rueckgabe_geplant", "zustand_bei_rueckgabe"],
+      "computed_keys": ["_ausleihe_dauer_tage"],
+      "reason": "Event-Entity mit Datumspaar Ausgabe–Rückgabe geplant. Berechnet virtuelle Dauer-Feld _ausleihe_dauer_tage als dateDiff(ausgabe, rueckgabe_geplant, days) für die Berechnungs-Übersicht. Keine Geldberechnung, da Werkzeugverleih keine Gebühren-Logik im Schema trägt."
+    },
+    "Wartungen": {
+      "placeholders_set": 5,
+      "defaults_keys": ["datum", "erledigt"],
+      "computed_keys": [],
+      "reason": "Event-Entity für Wartungskosten — Werkzeug, Datum, Beschreibung, Kosten (Zahl), Erledigt (Bool). Die Kosten sind manuelle Eingabe-Felder ohne Abhängigkeiten (kein Stundensatz, keine Menge). Kein Total sinnvoll, da die Aggregation auf Entity-Ebene stattfindet."
+    },
+    "Schäden": {
+      "placeholders_set": 3,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Event-Entity für Schaden-Meldungen — Werkzeug, Gemeldet am, Beschreibung. Reine Fehlerbehandlung ohne numerische Berechnungen oder Datumsdifferenzen."
+    }
+  }
+}

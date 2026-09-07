@@ -1,0 +1,31 @@
+{
+  "pages": {
+    "en": {
+      "Aktive Ausleihen": "Active Loans",
+      "Alle Werkzeuge sind im Haus.": "All tools are in house.",
+      "Defekt / Wartung": "Defective / Maintenance",
+      "Derzeit ausgeliehen an {0}.": "Currently on loan to {0}.",
+      "Gemeldete Schäden": "Reported Damages",
+      "Keine Schäden gemeldet — alles in Ordnung.": "No damages reported — all in order.",
+      "Keine Werkzeuge verliehen — alles im Haus.": "No tools on loan — all in house.",
+      "Neue Schäden heute": "New Damages Today",
+      "Rückgabe": "Return",
+      "Rückgabe erfassen": "Record Return",
+      "Schaden": "Damage",
+      "Schaden melden": "Report Damage",
+      "Unbekannt": "Unknown",
+      "Unbekanntes Werkzeug": "Unknown Tool",
+      "Verfügbar": "Available",
+      "Verliehen": "On Loan",
+      "Wartung": "Maintenance",
+      "Werkzeug ausgeben": "Issue Tool",
+      "bei {0}": "at {0}",
+      "bis": "until",
+      "haben Werkzeuge nicht zurückgegeben.": "have not returned tools.",
+      "hat ein Werkzeug nicht zurückgegeben.": "has not returned a tool.",
+      "{0} — Rückgabe überfällig.": "{0} — Return overdue.",
+      "Überfällig": "Overdue"
+    }
+  },
+  "v": 1
+}
