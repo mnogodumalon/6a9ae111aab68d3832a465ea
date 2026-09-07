@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "schaden-melden",
+      "component": "SchadenMelden",
+      "title": "Schaden melden",
+      "endpoints": [
+        {
+          "entity": "werkzeuge",
+          "op": "list",
+          "fields": [
+            "bezeichnung",
+            "inventarnummer",
+            "status"
+          ],
+          "scope_description": "alle Werkzeuge — auch defekte dürfen gemeldet werden",
+          "max_records": 500
+        },
+        {
+          "entity": "schaeden",
+          "op": "create",
+          "fields": [
+            "werkzeug",
+            "gemeldet_am",
+            "beschreibung"
+          ]
+        }
+      ]
+    }
+  ],
+  "partial": true
+}
