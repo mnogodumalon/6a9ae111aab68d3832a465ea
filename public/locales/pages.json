@@ -1,0 +1,40 @@
+{
+  "pages": {
+    "en": {
+      "Alle {0} Werkzeuge sind verfügbar und einsatzbereit.": "All {0} tools are available and ready for use.",
+      "Defekt": "Defective",
+      "Erstes Werkzeug anlegen": "Add First Tool",
+      "Gemeldete Schäden": "Reported Damages",
+      "Heute fällig": "Due Today",
+      "In Wartung": "Under Maintenance",
+      "Jetzt zurücknehmen": "Return Now",
+      "Keine Rückgaben heute fällig — alles im Zeitplan.": "No returns due today — everything on schedule.",
+      "Keine Schäden gemeldet — super!": "No damages reported — great!",
+      "Lege dein erstes Werkzeug an und starte den Verleih.": "Add your first tool and start lending.",
+      "Mitarbeiter": "Employee",
+      "Noch keine Werkzeuge angelegt. Füge dein erstes Gerät hinzu.": "No tools added yet. Add your first item.",
+      "Nr. {0}": "No. {0}",
+      "Schaden": "Damage",
+      "Schaden melden": "Report Damage",
+      "Status auf „{0}\" gesetzt.": "Status set to \"{0}\".",
+      "Unbekannt": "Unknown",
+      "Unbenannt": "Unnamed",
+      "Verfügbar": "Available",
+      "Verliehen": "On Loan",
+      "Wartung anlegen": "Schedule Maintenance",
+      "Werkzeug": "Tool",
+      "Werkzeug ausgeben": "Issue Tool",
+      "Werkzeug ist noch verliehen — erst zurücknehmen.": "Tool is still on loan — return it first.",
+      "Zurücknehmen": "Return",
+      "kein Datum": "no date",
+      "{0} Werkzeuge sind aktuell verliehen, {1} verfügbar.": "{0} tools are currently on loan, {1} available.",
+      "{0} haben Werkzeuge noch nicht zurückgebracht.": "{0} have not returned tools yet.",
+      "{0} hat ein Werkzeug noch nicht zurückgebracht.": "{0} has not returned a tool yet.",
+      "{0} ist defekt — noch keine Wartung geplant.": "{0} is defective — no maintenance scheduled yet.",
+      "{0} sind defekt — noch keine Wartung geplant.": "{0} are defective — no maintenance scheduled yet.",
+      "{0} — zurückgegeben.": "{0} — returned.",
+      "Überfällige Rückgaben": "Overdue Returns"
+    }
+  },
+  "v": 1
+}

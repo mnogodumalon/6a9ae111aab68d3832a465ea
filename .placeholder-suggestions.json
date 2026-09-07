@@ -1,0 +1,40 @@
+{
+  "MitarbeiterDialog.tsx": {
+    "vorname": "z. B. Hans",
+    "nachname": "z. B. Müller",
+    "personalnummer": "z. B. MA-2026-001",
+    "abteilung": "Wähle eine Abteilung",
+    "mobil": "z. B. 0171 123456",
+    "aktiv": "Ist der Mitarbeiter aktiv?"
+  },
+  "WerkzeugeDialog.tsx": {
+    "bezeichnung": "z. B. Bohrmaschine Milwaukee",
+    "inventarnummer": "z. B. WZ-001",
+    "status": "Wähle einen Status",
+    "bestand": "z. B. 2",
+    "anschaffungspreis": "z. B. 149,99",
+    "handbuch": "z. B. https://example.com/manual.pdf",
+    "kategorien": "z. B. Elektrowerkzeug, Handwerkzeug",
+    "ersatz_fuer": "Ersetzt welches Werkzeug?"
+  },
+  "AusleihenDialog.tsx": {
+    "werkzeug": "Welches Werkzeug wird verliehen?",
+    "mitarbeiter": "Welcher Mitarbeiter leiht aus?",
+    "ausgabe": "Wann wird es ausgegeben?",
+    "rueckgabe_geplant": "Wann soll es zurück?",
+    "rueckgabe_erfolgt": "Wann kommt es zurück?",
+    "zustand_bei_rueckgabe": "Wie ist der Zustand?"
+  },
+  "WartungenDialog.tsx": {
+    "werkzeug": "Welches Werkzeug wird gewartet?",
+    "datum": "Wann ist die Wartung?",
+    "beschreibung": "Was wurde gemacht? Ersatz, Reinigung, Reparatur...",
+    "kosten": "z. B. 45,50",
+    "erledigt": "Ist die Wartung abgeschlossen?"
+  },
+  "SchaedenDialog.tsx": {
+    "werkzeug": "Welches Werkzeug ist beschädigt?",
+    "gemeldet_am": "Wann wurde der Schaden gemeldet?",
+    "beschreibung": "Detaillierte Schadenbeschreibung und Kontext..."
+  }
+}
