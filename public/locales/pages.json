@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "en": {
+      " haben Werkzeuge nicht zurückgebracht — Rückgabe überfällig.": " have not returned tools — return overdue.",
+      " hat ein Werkzeug nicht zurückgebracht — Rückgabe überfällig.": " has not returned a tool — return overdue.",
+      "Aktive Ausleihen": "Active Loans",
+      "Aktuell sind alle Werkzeuge verfügbar.": "All tools are currently available.",
+      "Alle Werkzeuge sind zurückgegeben.": "All tools have been returned.",
+      "Defekt / Wartung": "Defective / Maintenance",
+      "Erstes Werkzeug anlegen": "Create First Tool",
+      "Kein Kommentar": "No Comment",
+      "Keine neuen Schäden gemeldet.": "No new damages reported.",
+      "Lege dein erstes Werkzeug an, um zu starten.": "Create your first tool to get started.",
+      "Neue Schäden": "New Damages",
+      "Noch keine Werkzeuge erfasst": "No tools recorded yet",
+      "Rückgabe eintragen": "Record Return",
+      "Rückgabe erfassen": "Record Return",
+      "Schaden melden": "Report Damage",
+      "Schäden offen": "Open Damages",
+      "Unbekannt": "Unknown",
+      "Unbekanntes Werkzeug": "Unknown Tool",
+      "Verfügbar": "Available",
+      "Verleih über Ausleihe-Eintrag anlegen — nicht per Drag.": "Create loan via checkout entry — not by drag.",
+      "Verliehen": "Checked Out",
+      "Wartung": "Maintenance",
+      "Werkzeug ausgeben": "Issue Tool",
+      "Zurück": "Back",
+      "fällig": "due",
+      "{0} haben Werkzeuge ausgeliehen.": "{0} have tools checked out.",
+      "{0} — Rückgabe überfällig.": "{0} — Return overdue.",
+      "{0} — Status auf {1} gesetzt": "{0} — Status set to {1}",
+      "{0} — zurückgegeben": "{0} — returned"
+    }
+  },
+  "v": 1
+}

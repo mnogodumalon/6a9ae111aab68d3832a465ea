@@ -1,0 +1,34 @@
+{
+  "entities": {
+    "Mitarbeiter": {
+      "placeholders_set": 6,
+      "defaults_keys": ["aktiv"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten (Name, Personalnummer, Abteilung). Keine Number-Felder mit Beziehungen, keine applookup-Preise — nichts berechenbar."
+    },
+    "Werkzeuge": {
+      "placeholders_set": 8,
+      "defaults_keys": ["status", "bestand"],
+      "computed_keys": [],
+      "reason": "Inventarverwaltung mit Bestand und Preis als Stammdaten, self-referential applookup (ersatz_fuer) ohne Multiplikation. Keine Berechnung nötig."
+    },
+    "Ausleihen": {
+      "placeholders_set": 6,
+      "defaults_keys": ["ausgabe", "rueckgabe_geplant"],
+      "computed_keys": ["_ausleihe_dauer_tage"],
+      "reason": "Ausleih-Transaktion mit Datumspaar (ausgabe + rueckgabe_geplant). Virtueller Dauer-Key für die Anzeige im Aggregat. Kein Preis-Computed (werkzeug hat keine Leih-Gebühr)."
+    },
+    "Wartungen": {
+      "placeholders_set": 5,
+      "defaults_keys": ["datum", "erledigt"],
+      "computed_keys": [],
+      "reason": "Wartungs-Log ohne Berechnung. Kosten sind manuell eingetragen, kein Multi-Posten-Aggregat nötig."
+    },
+    "Schäden": {
+      "placeholders_set": 3,
+      "defaults_keys": ["gemeldet_am"],
+      "computed_keys": [],
+      "reason": "Schadensdokumentation mit Werkzeug-Referenz und Beschreibung. Keine Numbers, keine Formeln."
+    }
+  }
+}
