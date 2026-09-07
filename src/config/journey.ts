@@ -34,5 +34,6 @@ export interface OccupancyRule {
 
 export const OCCUPANCY: Partial<Record<EntityKey, OccupancyRule>> = {
   // <custom:occupancy>
+  ausleihen: { from: 'ausgabe', to: 'rueckgabe_geplant', resource: 'werkzeug' },
   // </custom:occupancy>
 };

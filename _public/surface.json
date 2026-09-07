@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "werkzeug-anfrage",
+      "component": "WerkzeugAnfrage",
+      "title": "Werkzeug anfragen",
+      "endpoints": [
+        {
+          "entity": "werkzeuge",
+          "op": "list",
+          "fields": [
+            "bezeichnung",
+            "inventarnummer",
+            "status"
+          ],
+          "scope": "r.v_status == 'verfuegbar'",
+          "scope_description": "Zeigt nur Werkzeuge mit Status 'verfügbar' an",
+          "max_records": 200
+        },
+        {
+          "entity": "ausleihen",
+          "op": "create",
+          "fields": [
+            "werkzeug",
+            "ausgabe",
+            "rueckgabe_geplant"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "schaden-melden",
+      "component": "SchadenMelden",
+      "title": "Schaden melden",
+      "endpoints": [
+        {
+          "entity": "werkzeuge",
+          "op": "list",
+          "fields": [
+            "bezeichnung",
+            "inventarnummer"
+          ],
+          "scope_description": "alle Werkzeuge (auch verliehene können beschädigt zurückkommen)"
+        },
+        {
+          "entity": "schaeden",
+          "op": "create",
+          "fields": [
+            "werkzeug",
+            "gemeldet_am",
+            "beschreibung"
+          ]
+        }
+      ]
+    }
+  ]
+}

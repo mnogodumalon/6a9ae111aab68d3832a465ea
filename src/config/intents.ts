@@ -20,6 +20,7 @@
 import type { ComponentType } from 'react';
 
 // <custom:intent-imports>
+import { IconTool, IconCircleDot, IconAlertTriangle } from '@tabler/icons-react';
 // </custom:intent-imports>
 
 export interface IntentLink {
@@ -42,6 +43,9 @@ export interface IntentLink {
 
 export const INTENTS: IntentLink[] = [
   // <custom:intents>
+  { path: '/intents/werkzeug-ausgeben', label: { de: 'Werkzeug ausgeben', en: 'Issue tool' }, icon: IconTool, description: 'Werkzeug an einen Mitarbeiter ausgeben — nur verfuegbare Geraete' },
+  { path: '/intents/werkzeug-ruecknahme', label: { de: 'Werkzeug zuruecknehmen', en: 'Return tool' }, icon: IconCircleDot, description: 'Rueckgabe eines Werkzeugs mit Zustandsbewertung — danach verfuegbar oder in Wartung' },
+  { path: '/intents/schaden-melden-intern', label: { de: 'Schaden melden', en: 'Report damage' }, icon: IconAlertTriangle, description: 'Schaden an einem Werkzeug erfassen und Werkzeug als defekt markieren' },
   // </custom:intents>
 ];
 
@@ -52,7 +56,7 @@ export const INTENTS: IntentLink[] = [
  * purpose — a scaffold update resets it to false (self-healing if Phase 2
  * never ran).
  */
-export const INTENTS_PENDING = true;
+export const INTENTS_PENDING = false;
 
 /**
  * When the Phase-1 bundle was deployed (ISO, set by the service together with
