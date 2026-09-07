@@ -1,0 +1,40 @@
+{
+  "MitarbeiterDialog.tsx": {
+    "vorname": "z. B. Klaus",
+    "nachname": "z. B. Müller",
+    "personalnummer": "z. B. MA-2026-042",
+    "abteilung": "Aus 8 Abteilungen wählen",
+    "mobil": "z. B. 0171 123 4567",
+    "aktiv": "Mitarbeiter ist aktiv"
+  },
+  "WerkzeugeDialog.tsx": {
+    "bezeichnung": "z. B. Bohrmaschine Makita",
+    "inventarnummer": "z. B. WZ-2026-1042",
+    "status": "Status wählen",
+    "bestand": "z. B. 5",
+    "anschaffungspreis": "z. B. 249,99",
+    "handbuch": "Link zum Handbuch",
+    "kategorien": "z. B. Elektrowerkzeug, Handwerkzeug",
+    "ersatz_fuer": "Welches Werkzeug ersetzt es?"
+  },
+  "AusleihenDialog.tsx": {
+    "werkzeug": "Welches Werkzeug ausleihen?",
+    "mitarbeiter": "Welcher Mitarbeiter?",
+    "ausgabe": "Wann wurde ausgegeben?",
+    "rueckgabe_geplant": "Wann zurück?",
+    "rueckgabe_erfolgt": "Wann tatsächlich zurück?",
+    "zustand_bei_rueckgabe": "Zustand beim Zurückgeben"
+  },
+  "WartungenDialog.tsx": {
+    "datum": "Wartungsdatum wählen",
+    "beschreibung": "Was wurde gewartet oder repariert?",
+    "kosten": "z. B. 85,50",
+    "erledigt": "Wartung ist erledigt",
+    "werkzeug": "Welches Werkzeug warten?"
+  },
+  "SchaedenDialog.tsx": {
+    "werkzeug": "Welches Werkzeug ist beschädigt?",
+    "gemeldet_am": "Meldetag",
+    "beschreibung": "Schadensart, Verursacher, Folgen..."
+  }
+}

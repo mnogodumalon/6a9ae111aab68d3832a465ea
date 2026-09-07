@@ -1,0 +1,35 @@
+{
+  "pages": {
+    "en": {
+      "Aktive Ausleihen — überfällig & heute": "Active loans — overdue & today",
+      "Alles verfügbar — keine aktiven Ausleihen.": "All available — no active loans.",
+      "Als erledigt markieren": "Mark as done",
+      "Defekt": "Defective",
+      "Gemeldete Schäden": "Reported damages",
+      "Heute fällig": "Due today",
+      "In Wartung": "In maintenance",
+      "Keine aktiven Ausleihen — alle Geräte im Lager.": "No active loans — all devices in storage.",
+      "Keine gemeldeten Schäden.": "No damages reported.",
+      "Keine überfälligen Geräte — alle im Plan.": "No overdue devices — all on schedule.",
+      "Rückgabe buchen": "Return booking",
+      "Rückgabe gebucht": "Return booked",
+      "Schaden": "Damage",
+      "Schaden melden": "Report damage",
+      "Unbekannt": "Unknown",
+      "Unbekanntes Werkzeug": "Unknown tool",
+      "Verfügbar": "Available",
+      "Verliehen": "Loaned out",
+      "Wartung anlegen": "Create maintenance",
+      "Werkzeug ausgeben": "Issue tool",
+      "Zurücknehmen": "Check in",
+      "bei {0}": "at {0}",
+      "bitte Wartung anlegen.": "please create maintenance.",
+      "defekt ohne Wartungsauftrag": "defective without maintenance order",
+      "geplant": "scheduled",
+      "{0} Geräte bei {1}.": "{0} devices at {1}.",
+      "{0} — Rückgabe überfällig.": "{0} — Return overdue.",
+      "Überfällig": "Overdue"
+    }
+  },
+  "v": 1
+}
