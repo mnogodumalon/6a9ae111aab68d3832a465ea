@@ -1,0 +1,35 @@
+{
+  "pages": {
+    "en": {
+      "Alle Werkzeuge sind im Depot.": "All tools are in the depot.",
+      "Ausleihe erfassen": "Record loan",
+      "Defekt": "Damaged",
+      "Gesamt": "Total",
+      "Heute fällig": "Due today",
+      "Heute fällig & überfällig": "Due today & overdue",
+      "In Wartung": "In Maintenance",
+      "Jetzt zurücknehmen": "Return now",
+      "Keine Rückgaben heute fällig — alles im Plan.": "No returns due today — everything on schedule.",
+      "Keine offenen Schäden gemeldet.": "No open damages reported.",
+      "Nur verfügbare Werkzeuge können verliehen werden.": "Only available tools can be loaned out.",
+      "Offene Schäden": "Open damages",
+      "Ohne Bezeichnung": "Unnamed",
+      "Schaden": "Damage",
+      "Schaden melden": "Report damage",
+      "Status auf {0} geändert": "Status changed to {0}",
+      "Verfügbar": "Available",
+      "Verliehen": "On Loan",
+      "Wartung erstellen": "Create maintenance",
+      "Werkzeug": "Tool",
+      "Werkzeug ausgeben": "Issue tool",
+      "Zurücknehmen": "Take back",
+      "{0} Werkzeuge überfällig — zuletzt erwartet von {1}.": "{0} tools overdue — last expected from {1}.",
+      "{0} bei {1} — Rückgabe überfällig seit {2}.": "{0} at {1} — return overdue since {2}.",
+      "{0} hat/haben aktuell Werkzeuge ausgeliehen.": "{0} currently has/have tools on loan.",
+      "{0} — zurückgegeben": "{0} — returned",
+      "{0} — {1} Rückgabe(n) überfällig.": "{0} — {1} return(s) overdue.",
+      "Überfällig": "Overdue"
+    }
+  },
+  "v": 1
+}

@@ -1,0 +1,34 @@
+{
+  "entities": {
+    "Mitarbeiter": {
+      "placeholders_set": 6,
+      "defaults_keys": ["aktiv"],
+      "computed_keys": [],
+      "reason": "Reine Stammdatenverwaltung, keine berechenbaren Größen. Keine Number-Felder für Multiplikationen, keine Datums-Paare, keine applookup-gesteuerten Aggregationen. Nur Kontakt- und Job-Informationen."
+    },
+    "Werkzeuge": {
+      "placeholders_set": 8,
+      "defaults_keys": ["status"],
+      "computed_keys": [],
+      "reason": "Inventarbestandsverwaltung. Number-Felder (Bestand, Anschaffungspreis) sind unabhängig, keine Mengen-mal-Preis-Berechnung. Das Ersatz-Feld ist eine Referenz ohne numerische Zielfelder für Aggregation. Keine Preis-Koppelung an Ausleihen im Schema."
+    },
+    "Ausleihen": {
+      "placeholders_set": 6,
+      "defaults_keys": ["ausgabe", "rueckgabe_geplant"],
+      "computed_keys": ["_ausleihe_dauer_tage"],
+      "reason": "Zentrale Ausleihdokumentation mit Datumspaar (ausgabe/rueckgabe_geplant). Dauer wird automatisch berechnet (dateDiff). Keine Leihgebühren im Schema, daher keine Preis-Berechnung, aber die Dauer informativ als virtueller Wert angezeigt."
+    },
+    "Wartungen": {
+      "placeholders_set": 5,
+      "defaults_keys": ["datum", "erledigt"],
+      "computed_keys": [],
+      "reason": "Wartungs-Logbuch pro Werkzeug. Number-Feld (Kosten) ist eine einzelne Größe ohne weitere Posten. Kein Multilookup-Aggregate, keine Multiplikation. Reine Dokumentation."
+    },
+    "Schäden": {
+      "placeholders_set": 3,
+      "defaults_keys": ["gemeldet_am"],
+      "computed_keys": [],
+      "reason": "Schadens-Meldeformular. Keine Number-Felder, keine Datumspaare, keine preis-gesteuerten Berechnungen. Reine Dokumentation und Referenz zum betroffenen Werkzeug."
+    }
+  }
+}

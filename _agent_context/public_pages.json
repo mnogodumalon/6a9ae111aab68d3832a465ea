@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "schaden-melden",
+      "type": "custom",
+      "entity": "schaeden",
+      "title": "Schaden melden",
+      "published": false,
+      "fields": [
+        "werkzeug",
+        "gemeldet_am",
+        "beschreibung"
+      ]
+    },
+    {
+      "slug": "werkzeug-anfrage",
+      "type": "custom",
+      "entity": "ausleihen",
+      "title": "Werkzeug anfragen",
+      "published": false,
+      "fields": [
+        "werkzeug",
+        "mitarbeiter",
+        "ausgabe",
+        "rueckgabe_geplant"
+      ]
+    }
+  ]
+}

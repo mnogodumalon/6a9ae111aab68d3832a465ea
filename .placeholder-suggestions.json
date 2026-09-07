@@ -1,0 +1,40 @@
+{
+  "MitarbeiterDialog.tsx": {
+    "vorname": "z. B. Hans",
+    "nachname": "z. B. Müller",
+    "personalnummer": "z. B. MA-2026-042",
+    "abteilung": "Aus 8 Abteilungen wählen",
+    "mobil": "z. B. +49 123 456789",
+    "aktiv": "Mitarbeiter aktiv?"
+  },
+  "WerkzeugeDialog.tsx": {
+    "bezeichnung": "z. B. Elektro-Handbohrer",
+    "inventarnummer": "z. B. EL-00847",
+    "status": "Verfügbar, Verliehen oder Defekt?",
+    "bestand": "z. B. 3",
+    "anschaffungspreis": "z. B. 249,90",
+    "handbuch": "Link zum Handbuch einfügen",
+    "kategorien": "Eine oder mehrere Kategorien",
+    "ersatz_fuer": "Welches Werkzeug wird ersetzt?"
+  },
+  "AusleihenDialog.tsx": {
+    "werkzeug": "Werkzeug aus Inventar wählen",
+    "mitarbeiter": "Mitarbeiter auswählen",
+    "ausgabe": "Wann ausgegeben?",
+    "rueckgabe_geplant": "Wann zurückgeben?",
+    "rueckgabe_erfolgt": "Wann tatsächlich zurückgegeben?",
+    "zustand_bei_rueckgabe": "Einwandfrei, Gebrauchsspuren oder Beschädigt?"
+  },
+  "WartungenDialog.tsx": {
+    "datum": "Wann die Wartung?",
+    "beschreibung": "Was wurde gewartet? Erkannte Mängel, durchgeführte Arbeiten...",
+    "kosten": "z. B. 45,50",
+    "erledigt": "Wartung abgeschlossen?",
+    "werkzeug": "Welches Werkzeug?"
+  },
+  "SchaedenDialog.tsx": {
+    "werkzeug": "Welches Werkzeug beschädigt?",
+    "gemeldet_am": "Heute oder Datum eintragen",
+    "beschreibung": "Beschädigter Bereich, Ursache, Reparaturfähigkeit..."
+  }
+}
