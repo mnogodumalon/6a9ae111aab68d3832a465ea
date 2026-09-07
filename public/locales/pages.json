@@ -1,0 +1,40 @@
+{
+  "pages": {
+    "en": {
+      " · {0}× ausgeliehen": " · {0}× loaned out",
+      " — Werkzeug seit {0} überfällig": " — tool overdue since {0}",
+      " — {0} Werkzeuge überfällig": " — {0} tools overdue",
+      "Aktive Ausleihen": "Active Loans",
+      "Defekt": "Damaged",
+      "In Wartung": "Under Maintenance",
+      "Keine aktiven Ausleihen — alle Werkzeuge im Lager.": "No active loans — all tools in storage.",
+      "Keine neuen Schäden oder offenen Wartungen.": "No new damages or open maintenance items.",
+      "Lager bereit — noch keine Werkzeuge erfasst.": "Storage ready — no tools added yet.",
+      "Nr. {0}{1}": "No. {0}{1}",
+      "Rückgabe eintragen": "Record Return",
+      "Rückgabe jetzt eintragen": "Record return now",
+      "Schaden": "Damage",
+      "Schaden melden": "Report Damage",
+      "Schäden & Wartungen": "Damages & Maintenance",
+      "Unbekanntes Werkzeug": "Unknown Tool",
+      "Verfügbar": "Available",
+      "Verliehen": "On Loan",
+      "Wartung ausstehend": "Maintenance pending",
+      "Werkzeug": "Tool",
+      "Werkzeug ausgeben": "Issue Tool",
+      "Werkzeug hat noch offene Ausleihen — erst zurücknehmen.": "Tool still has open loans — return first.",
+      "haben Werkzeuge überfällig": "have tools overdue",
+      "hat ein Werkzeug überfällig": "has a tool overdue",
+      "heute fällig": "due today",
+      "{0} Werkzeuge verfügbar": "{0} tools available",
+      "{0} aktuell verliehen": "{0} currently on loan",
+      "{0} — Wartung erledigt": "{0} — maintenance completed",
+      "{0} — in Wartung": "{0} — under maintenance",
+      "{0} — zurückgegeben": "{0} — returned",
+      "überfällig": "overdue",
+      "✓ Erledigt": "✓ Done",
+      "✓ Zurück": "✓ Returned"
+    }
+  },
+  "v": 1
+}
