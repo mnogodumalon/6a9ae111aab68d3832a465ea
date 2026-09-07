@@ -1,0 +1,40 @@
+{
+  "pages": {
+    "en": {
+      "Aktuell verliehen: {0}.": "Currently on loan: {0}.",
+      "Alle Werkzeuge verfügbar — bereit für den Einsatz.": "All tools available — ready for use.",
+      "Alles pünktlich zurück — keine Fälligkeiten.": "All returned on time — no due items.",
+      "Als erledigt markieren": "Mark as done",
+      "Defekt": "Defective",
+      "Erledigt": "Done",
+      "Heute fällig": "Due today",
+      "In Wartung": "In maintenance",
+      "Keine offenen Schäden oder Wartungen — alles in Ordnung.": "No open damages or maintenance — all clear.",
+      "Keine weiteren Fälligkeiten.": "No further due items.",
+      "Lege dein erstes Werkzeug an.": "Add your first tool.",
+      "Mitarbeiter unbekannt": "Employee unknown",
+      "Neue Ausleihe": "New loan",
+      "Offene Schäden & Wartungen": "Open damages & maintenance",
+      "Rückgabe buchen": "Book return",
+      "Schaden": "Damage",
+      "Schaden gemeldet, noch keine Wartung eingetragen.": "Damage reported, no maintenance logged yet.",
+      "Schaden melden": "Report damage",
+      "Unbekannt": "Unknown",
+      "Unbenannt": "Unnamed",
+      "Verfügbar": "Available",
+      "Verliehen": "On loan",
+      "Wartung": "Maintenance",
+      "Wartung als erledigt markiert": "Maintenance marked as done",
+      "Wartung anlegen": "Add maintenance",
+      "Wartung erledigt": "Maintenance done",
+      "Werkzeug": "Tool",
+      "Werkzeug ist noch verliehen — erst zurücknehmen.": "Tool is still on loan — return it first.",
+      "Zurück": "Back",
+      "{0} hat überfällige Ausleihen.": "{0} has overdue loans.",
+      "{0} — zurückgegeben": "{0} — returned",
+      "Überfällig": "Overdue",
+      "Überfällige & heute fällige Ausleihen": "Overdue & due today loans"
+    }
+  },
+  "v": 1
+}

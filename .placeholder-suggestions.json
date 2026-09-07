@@ -1,0 +1,40 @@
+{
+  "MitarbeiterDialog.tsx": {
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Müller",
+    "personalnummer": "z. B. MA-001",
+    "abteilung": "Abteilung wählen",
+    "mobil": "z. B. +49 176 123456",
+    "aktiv": ""
+  },
+  "WerkzeugeDialog.tsx": {
+    "bezeichnung": "z. B. Akkuschrauber DeWalt",
+    "inventarnummer": "z. B. WZ-2024-042",
+    "status": "Status wählen",
+    "bestand": "z. B. 3",
+    "anschaffungspreis": "z. B. 89,99",
+    "handbuch": "z. B. https://...",
+    "kategorien": "Kategorien wählen",
+    "ersatz_fuer": "Original-Werkzeug (optional)"
+  },
+  "AusleihenDialog.tsx": {
+    "werkzeug": "Welches Werkzeug?",
+    "mitarbeiter": "Welcher Mitarbeiter?",
+    "ausgabe": "Wann wird ausgegeben?",
+    "rueckgabe_geplant": "Geplante Rückgabe",
+    "rueckgabe_erfolgt": "Tatsächliche Rückgabe",
+    "zustand_bei_rueckgabe": "Zustand auswählen"
+  },
+  "WartungenDialog.tsx": {
+    "datum": "Wartungsdatum",
+    "werkzeug": "Welches Werkzeug?",
+    "beschreibung": "Was wurde gewartet? Defekt/Ausgabe/Bemerkungen...",
+    "kosten": "z. B. 45,50",
+    "erledigt": ""
+  },
+  "SchaedenDialog.tsx": {
+    "werkzeug": "Welches Werkzeug?",
+    "gemeldet_am": "Meldedatum",
+    "beschreibung": "Beschreibung des Schadens, Hergang, Konsequenzen..."
+  }
+}
