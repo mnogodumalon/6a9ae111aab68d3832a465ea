@@ -1,0 +1,39 @@
+{
+  "pages": {
+    "en": {
+      "Aktive Ausleihen": "Active Loans",
+      "Alle Werkzeuge sind zurück — nichts offen.": "All tools returned — nothing pending.",
+      "Alle Werkzeuge verfügbar — bereit für den nächsten Einsatz.": "All tools available — ready for the next use.",
+      "Ausgeliehen": "On Loan",
+      "Ausgeliehen von {0}": "Borrowed by {0}",
+      "Defekt": "Defective",
+      "Defekte Werkzeuge können nicht direkt verliehen werden — bitte zuerst reparieren.": "Defective tools cannot be lent out directly — please repair first.",
+      "Erledigt": "Done",
+      "In Wartung": "In Maintenance",
+      "Keine offenen Wartungen — alles in Ordnung.": "No open maintenance items — everything in order.",
+      "Noch keine Werkzeuge erfasst.": "No tools recorded yet.",
+      "Offene Wartungen": "Open Maintenance Items",
+      "Rückgabe": "Return",
+      "Rückgabe erfassen": "Record Return",
+      "Unbekannt": "Unknown",
+      "Verfügbar": "Available",
+      "Wartung erfassen": "Record Maintenance",
+      "Wartung offen": "Maintenance Pending",
+      "Werkzeug": "Tool",
+      "Werkzeug ausgeben": "Issue Tool",
+      "Werkzeug zurücknehmen": "Return Tool",
+      "Zurücknehmen": "Take Back",
+      "fällig war": "was due",
+      "haben Werkzeuge nicht rechtzeitig zurückgebracht": "did not return tools on time",
+      "hat ein Werkzeug nicht rechtzeitig zurückgebracht": "did not return a tool on time",
+      "unbekannt": "unknown",
+      "{0} Schaden gemeldet": "{0} damage reported",
+      "{0} hat gerade Werkzeuge ausgeliehen.": "{0} currently has tools on loan.",
+      "{0} hat überfällige Werkzeuge — bitte Rückgabe klären.": "{0} has overdue tools — please clarify return.",
+      "{0} — Wartung erledigt": "{0} — maintenance completed",
+      "{0} — zurückgegeben": "{0} — returned",
+      "Überfällig": "Overdue"
+    }
+  },
+  "v": 1
+}

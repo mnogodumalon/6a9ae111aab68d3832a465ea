@@ -1,0 +1,40 @@
+{
+  "MitarbeiterDialog.tsx": {
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Müller",
+    "personalnummer": "z. B. MA-001",
+    "abteilung": "Wähle eine Abteilung",
+    "mobil": "Mobil-Nummer",
+    "aktiv": "Aktiv/Inaktiv"
+  },
+  "WerkzeugeDialog.tsx": {
+    "bezeichnung": "z. B. Elektro-Bohrmaschine",
+    "inventarnummer": "z. B. W-2024-001",
+    "status": "Status wählen",
+    "bestand": "z. B. 5",
+    "anschaffungspreis": "z. B. 249,99",
+    "handbuch": "Link zum Handbuch",
+    "kategorien": "Welche Kategorien?",
+    "ersatz_fuer": "Welches Werkzeug wird ersetzt?"
+  },
+  "AusleihenDialog.tsx": {
+    "werkzeug": "Werkzeug auswählen",
+    "mitarbeiter": "Mitarbeiter auswählen",
+    "ausgabe": "Wann wird ausgegeben?",
+    "rueckgabe_geplant": "Wann soll zurück?",
+    "rueckgabe_erfolgt": "Wann tatsächlich zurück?",
+    "zustand_bei_rueckgabe": "Zustand bei Rückgabe"
+  },
+  "WartungenDialog.tsx": {
+    "datum": "Wann wurde die Wartung gemeldet?",
+    "beschreibung": "Was ist zu tun? Defekte, Verschleiß...",
+    "kosten": "z. B. 89,50",
+    "erledigt": "Erledigt/Ausstehend",
+    "werkzeug": "Werkzeug wählen"
+  },
+  "SchaedenDialog.tsx": {
+    "werkzeug": "Werkzeug auswählen",
+    "gemeldet_am": "Wann wurde der Schaden gemeldet?",
+    "beschreibung": "Schadensbeschreibung: Wie beschädigt? Ursache?"
+  }
+}
